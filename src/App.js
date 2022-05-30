@@ -9,7 +9,10 @@ const DivMain = styled.div`
 display: flex;
 flex-direction: column;
 align-items:center;
-color: black;
+`
+const H1Main = styled.h1`
+text-align:center;
+
 `
 const InputMain = styled.input`
 text-align: center;
@@ -36,7 +39,7 @@ function App() {
 
   return (
     <DivMain>
-      <h1>Informe seus dados e veja seu cartão:</h1>
+      <H1Main>Informe seus dados e veja seu cartão:</H1Main>
       <InputMain value={inputName} onChange={handleInputName}></InputMain>
       <InputMain value={inputNumero} onChange={handleInputNumero}></InputMain>
       <Cartao numero={inputNumero} nome={inputName}>
