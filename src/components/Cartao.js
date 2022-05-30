@@ -39,7 +39,7 @@ padding: 5px;
 const CardName = styled.h2`
 font-family: monospace;
 color: white;
-text-shadow: 2px 2px rgba(94, 92, 92, 0.628);
+text-shadow: 1px 1px rgba(94, 92, 92, 0.628);
 font-size: 15px;
 letter-spacing: 4px;
 `
